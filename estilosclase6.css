@@ -1,0 +1,128 @@
+.medio {
+
+    margin: 30px;
+    padding: 20px;
+    width: 600px;
+    height: 370px;
+
+    background-color: aquamarine;
+}
+
+.externo {
+
+    background-color: blue;
+    margin: 30px;
+    padding: 20px;
+    width: 700px;
+    height: 500px;
+}
+
+.interno {
+
+    background-color: brown;
+    margin: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 250px;
+}
+
+.contenedor1 {
+    border: 2px solid darkkhaki;
+
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+}
+
+.uno {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+}
+
+.dos {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.tres {
+    background-color: darkseagreen;
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+}
+
+
+
+
+
+.contenedor2 {
+    border: 2px solid darkkhaki;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    justify-content: space-around;
+    }
+
+    .cuatro{
+        background-color: coral;
+        width: 100px;
+        height: 100px;
+        align-self: center;
+    }
+    
+    .cinco{
+        background-color: cornflowerblue;
+        width: 100%;
+        height: 100px;
+        align-items: center;
+    }
+    
+    .seis{
+        background-color: darkseagreen;
+        width: 100px;
+        height: 100px;
+        align-self: center;
+    }
+    
+    
+
+
+
+.contenedor3 {
+    border: 2px solid darkkhaki;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 400px;
+    width: 500px;
+    justify-content: flex-start;
+    align-items: flex-end;
+ 
+}
+
+.siete{
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    align-items: ;
+}
+
+.ocho{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.nueve{
+    background-color: darkseagreen;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
